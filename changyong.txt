@@ -5,3 +5,6 @@
 5	git log	查看版本更新情况
 6	git reset -hard x	回退到某个本地版本,x为git log中出现的hash值的前七位
 7	git clean -xf	清除所有的未提交文件
+
+
+test
