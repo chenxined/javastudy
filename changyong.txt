@@ -1,0 +1,7 @@
+1	git status	查看仓库的改变情况，会有相关的提示操作出现
+2	git add -A	直接添加所有改动的文件
+3	git commit -m "note"	确认生成本地的版本，note是 版本特点说明
+4	git push	将改动上传到github，若没有指定分支，则需要使用git push origin master
+5	git log	查看版本更新情况
+6	git reset -hard x	回退到某个本地版本,x为git log中出现的hash值的前七位
+7	git clean -xf	清除所有的未提交文件
